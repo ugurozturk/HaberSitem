@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HaberSitem.Entity
 {
-    class Etiketler
+    public class Etiketler
     {
         public int EtiketID { get; set; }
         public string EtiketAdi { get; set; }

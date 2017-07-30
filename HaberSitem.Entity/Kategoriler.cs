@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HaberSitem.Entity
 {
-    class Kategoriler
+    public class Kategoriler
     {
         public int KategoriID { get; set; }
         public string KategoriAdi { get; set; }

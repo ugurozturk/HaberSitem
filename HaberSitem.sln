@@ -3,8 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaberSitem.Entity", "HaberSitem.Entity\HaberSitem.Entity.csproj", "{5232A400-F752-477F-82F9-1C51415FE1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaberSitem.Data", "HaberSitem.Data\HaberSitem.Data.csproj", "{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{A99CBE15-21B1-434C-94D9-B3041BCB5489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DATA", "1 - DATA", "{0C22CE9A-A7D4-462C-9234-99AE388344B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business", "2 - Business", "{A422D63E-3634-4203-96A1-564BCCEB211F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - UI", "3 - UI", "{F50C9FD7-FA2B-4C60-97EE-3000A5CB7D08}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5232A400-F752-477F-82F9-1C51415FE1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5232A400-F752-477F-82F9-1C51415FE1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5232A400-F752-477F-82F9-1C51415FE1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5232A400-F752-477F-82F9-1C51415FE1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5232A400-F752-477F-82F9-1C51415FE1C5} = {A99CBE15-21B1-434C-94D9-B3041BCB5489}
+		{9D2B6AFE-EB31-44D7-9BDC-19CE1B59E130} = {0C22CE9A-A7D4-462C-9234-99AE388344B7}
 	EndGlobalSection
 EndGlobal

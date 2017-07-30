@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HaberSitem.Entity
 {
-    class UyeTipleri
+    public class UyeTipleri
     {
         public int UyeTipleriID { get; set; }
         public string UyeTipiAdi { get; set; }
