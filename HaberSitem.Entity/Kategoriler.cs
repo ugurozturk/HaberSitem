@@ -14,6 +14,7 @@ namespace HaberSitem.Entity
         [Key]
         public int KategoriID { get; set; }
         public string KategoriAdi { get; set; }
+        public string KategoriUrl { get; set; }
 
         public virtual ICollection<Yazilar> Yazilar { get; set; }
     }

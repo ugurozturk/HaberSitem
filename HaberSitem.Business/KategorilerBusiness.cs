@@ -9,5 +9,6 @@ namespace HaberSitem.Business
 {
     public class KategorilerBusiness : BaseBusiness<Kategoriler>
     {
+        
     }
 }
