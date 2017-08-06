@@ -12,7 +12,7 @@ namespace HaberSitem.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View(kategoriler);
+            return View();
         }
 
         public ActionResult About()
